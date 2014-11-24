@@ -9,25 +9,25 @@ autosize: true
 The Titanic Disaster Shiny App
 ========================================================
 This is a simple Shiny App using a Machine Learning algorithm to predict survival probabilities
-- You can do a prediction by configuring the Pclass, gender and age 
-- Creates a plot based on your input parameters showing your prediction result together with computed survival probabilities for the gender you selected
-- Shows a table with the dataset used for plotting the probability scatterplot
-- Generate some basic plots visualizing the Titanic data set
+- <small>You can do a prediction by configuring the Pclass, gender and age</small>
+- <small>Creates a plot based on your input parameters showing your prediction result together with computed survival probabilities for the gender you selected</small>
+- <small>Shows a table with the dataset used for plotting the probability scatterplot</small>
+- <small>Generate some basic plots visualizing the Titanic data set</small>
 
 References
 
 <small>The used Titanic data set: [http://www.kaggle.com/](http://www.kaggle.com/)</small>
-<small>Visit my Github repository: [The Titanic Disaster Shiny App](https://github.com/dreammaster38/coursera_developing_data_prods_pa)</small>
-
+<small>Visit my Github repository: [https://github.com/dreammaster38/coursera_developing_data_prods_pa](https://github.com/dreammaster38/coursera_developing_data_prods_pa)</small>
+<small>Visit Demo: [The Titanic Disaster Shiny App Demo](https://tguenther.shinyapps.io/coursera_ddp_kaggle_titanic/)</small>
 Technical details
 ========================================================
 
-- Uses a Machine learning algorithm based on Random Forests to create the model
-- model accuracy ~88%
-- OOB error is 18.52%% (this could be better)
-- As you can see the model's accuracy isn't perfect and should be improved
-- uses multiple CPU cores while model creation (if possible, deactivated for shyniApps.io)
-- plots will be generated via `ggplot2` package for maximum flexibility
+- <small>Uses a Machine learning algorithm based on Random Forests to create the model</small>
+- <small>model accuracy ~88%</small>
+- <small>OOB error is 18.52%% (this could be better)</small>
+- <small>As you can see the model's accuracy isn't perfect and should be improved</small>
+- <small>uses multiple CPU cores while model creation (if possible, deactivated for shyniApps.io)</small>
+- <small>plots will be generated via `ggplot2` package for maximum flexibility</small>
 
 Survival Plot
 ========================================================
@@ -56,4 +56,4 @@ Improvements for future versions beyond bugfixing
 - <small>experiment with different methods of imputing missing data</small>
 - <small>try other Machine Learning algorithms like SVM, GLM and so on</small>
 
-Thanx, Thomas G., November 2014
+Thanx, Thomas Guenther, November 2014
